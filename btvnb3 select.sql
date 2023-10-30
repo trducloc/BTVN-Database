@@ -23,7 +23,6 @@ GROUP BY gender;
 -- 6.Lấy ra danh sách người có cùng nghề nghiệp (job) và quốc gia (country).
 SELECT job, country, COUNT(*) AS count FROM Person 
 GROUP BY job, country 
-HAVING COUNT(*) > 1;
 
 -- 7.Lấy ra danh sách người theo thứ tự giảm dần của ngày sinh (birthday).
 SELECT * FROM Person
